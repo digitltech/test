@@ -1,0 +1,6 @@
+dotnet user-secrets init -p Test.Webapi 
+dotnet user-secrets set "CONNECTION_STRING" "mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority" -p Test.WebApi
+Successfully saved CONNECTION_STRING = mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority to the secret store.
+PM> dotnet user-secrets list -p Test.WebApi
+CONNECTION_STRING = mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority
+PM> 
