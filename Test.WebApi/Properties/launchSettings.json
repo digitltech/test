@@ -1,0 +1,38 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:25071",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CONNECTION_STRING": "mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority",
+        "DATABASE_Name": "Testdb",
+        "BOOKS_Collection_Name": "books"
+
+      }
+    },
+    "Test.WebApi": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+         "Connection_string": "mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority",
+        "DATABASE_Name": "Testdb",
+        "BOOKS_Collection_Name": "books"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\bin\Debug\net5.0\Test.Core.deps.json
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\bin\Debug\net5.0\Test.Core.dll
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\bin\Debug\net5.0\ref\Test.Core.dll
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\bin\Debug\net5.0\Test.Core.pdb
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\obj\Debug\net5.0\Test.Core.csproj.AssemblyReference.cache
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\obj\Debug\net5.0\Test.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\obj\Debug\net5.0\Test.Core.AssemblyInfoInputs.cache
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\obj\Debug\net5.0\Test.Core.AssemblyInfo.cs
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\obj\Debug\net5.0\Test.Core.csproj.CoreCompileInputs.cache
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\obj\Debug\net5.0\Test.Core.dll
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\obj\Debug\net5.0\ref\Test.Core.dll
+C:\Users\minni\source\repos\Test.WebApi\Test.Core\obj\Debug\net5.0\Test.Core.pdb
