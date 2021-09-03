@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minni\\source\\repos\\Test.WebApi\\Test.Core\\Test.Core.csproj": {}
+    "C:\\Users\\minni\\OneDrive\\Документы\\GitHub\\test\\Test.Core\\Test.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minni\\source\\repos\\Test.WebApi\\Test.Core\\Test.Core.csproj": {
+    "C:\\Users\\minni\\OneDrive\\Документы\\GitHub\\test\\Test.Core\\Test.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minni\\source\\repos\\Test.WebApi\\Test.Core\\Test.Core.csproj",
+        "projectUniqueName": "C:\\Users\\minni\\OneDrive\\Документы\\GitHub\\test\\Test.Core\\Test.Core.csproj",
         "projectName": "Test.Core",
-        "projectPath": "C:\\Users\\minni\\source\\repos\\Test.WebApi\\Test.Core\\Test.Core.csproj",
+        "projectPath": "C:\\Users\\minni\\OneDrive\\Документы\\GitHub\\test\\Test.Core\\Test.Core.csproj",
         "packagesPath": "C:\\Users\\minni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minni\\source\\repos\\Test.WebApi\\Test.Core\\obj\\",
+        "outputPath": "C:\\Users\\minni\\OneDrive\\Документы\\GitHub\\test\\Test.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\minni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,6 +51,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.13.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
             }
           },
           "imports": [

@@ -17,7 +17,10 @@
         "ASPNETCORE_ENVIRONMENT": "Development",
         "CONNECTION_STRING": "mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority",
         "DATABASE_Name": "Testdb",
-        "BOOKS_Collection_Name": "books"
+        "BOOKS_Collection_Name": "books",
+        "USERS_Collection_Name": "users",
+        "JwtKey": "1234qwer"
+
 
       }
     },
@@ -29,9 +32,10 @@
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-         "Connection_string": "mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority",
+        "Connection_string": "mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority",
         "DATABASE_Name": "Testdb",
-        "BOOKS_Collection_Name": "books"
+        "BOOKS_Collection_Name": "books",
+        "USERS_Collection_Name": "users"
       }
     }
   }

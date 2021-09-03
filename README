@@ -1,0 +1,18 @@
+core 5 
+
+в качестве базы использовал MongoDb 44 базу кинул в cloud.mongodb.com настройка поключение находится в secret.json 
+ниже код для инициальзации подключене через консоль
+
+dotnet user-secrets init -p Test.Webapi 
+dotnet user-secrets set "CONNECTION_STRING" "mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority" -p Test.WebApi
+Successfully saved CONNECTION_STRING = mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority to the secret store.
+PM> dotnet user-secrets list -p Test.WebApi
+CONNECTION_STRING = mongodb+srv://dbuser:dbuser123456@cluster0.lkyk2.mongodb.net/Testdb?retryWrites=true&w=majority
+
+
+для просмотра и тестирования поставил Swagger 
+
+на bookcontroller стоит авторизация при любов запросе на book выдаст 401 Error: Unauthorized - соответсвенно не авторизованный пользователь. Для авторизации есть post 
+​/Books​/authenticate (логин admin pass 1234)
+для регистрации нового пользователя есть post ​/User
+	

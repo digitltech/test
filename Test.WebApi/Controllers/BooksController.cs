@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -8,14 +9,29 @@ using Test.Core;
 
 namespace Test.WebApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class BooksController : ControllerBase
     {
         private readonly IBookServices _bookServices;
-        public BooksController(IBookServices bookServices)
+        private readonly UserServices _userservice;
+        public BooksController(IBookServices bookServices,UserServices userServices)
         {
             _bookServices = bookServices;
+            _userservice = userServices;
+            
+        }
+
+        [AllowAnonymous]
+        [Route("authenticate")]
+        [HttpPost]
+        public ActionResult Login([FromBody] User user)
+        {
+            var token = _userservice.Authenticate(user.Name, user.Password);
+            if (token == null)
+            { return Unauthorized(); }
+            return Ok(new { token, user });
         }
 
         [HttpGet]

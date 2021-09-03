@@ -10,5 +10,6 @@ namespace Test.Core
   public   interface IDBClient
     {
         IMongoCollection<Book> GetBooksCollection();
+        IMongoCollection<User> GetUsersCollection();
     }
 }
